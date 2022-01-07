@@ -1,0 +1,25 @@
+[app]
+name = "Pchat"
+env = "dev"
+http_addr = ":9092"
+
+[server]
+tcp_addr = ":62121"
+udp_addr = ":62121"
+
+[log]
+Path   = "data"
+Size  = 100
+Backup = 10
+Age    = 30
+
+[redis]
+addr = "192.168.97.200:19581"
+
+[memcached]
+addr = "192.168.97.200:15810"
+
+[keys]
+tcp0x888 = "f35537b335a767c5b60d76863daff7af"
+udp0x10e = "cade073b2c1b6612db735a41c11853f4"
+udp0x10f = "c801792bc8959b4842f526e8dc11b322"
