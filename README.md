@@ -1,2 +1,2 @@
-# TCP&UDP&HTTP Server for Go
+# TCP&UDP&HTTP service for Go
 
