@@ -1,4 +1,4 @@
-BINARY = Pchat
+BINARY = Pchat-Service
 GOARCH = amd64
 
 PLATFORM?=581
